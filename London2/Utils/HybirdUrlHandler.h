@@ -3,11 +3,6 @@
 #define HybridUrlHanlder1_h
 #import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
 
-static NSString *const kHybridScheme = @"gm";
-static NSString *const kHybridPortalVar = @"gm";
-static NSString *const kHybridParamKey = @"param";
-static NSString *const kHybridCallbackKey = @"callback";
-
 typedef void (^HybridCallbackBlock)(BOOL isSucc, NSDictionary *nativeResponseData);
 
 @protocol HybridUrlHanlder <NSObject>
