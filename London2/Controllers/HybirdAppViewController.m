@@ -20,6 +20,7 @@
 
 @property WebViewJavascriptBridge *bridge;
 @property (strong, nonatomic) HyBridBridge *hybridBridge;
+@property (weak, nonatomic) IBOutlet UIButton *nativeButton;
 
 @end
 
@@ -29,6 +30,7 @@
     [super viewDidLoad];
     [self setupViews];
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    [self.view bringSubviewToFront:self.nativeButton];
 }
 
 #pragma mark - init Views
@@ -42,6 +44,9 @@
 
     _bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView];
     [self.hybridBridge registerHybridUrlHanlder:self andBridge:self.bridge];
+    
+    [_bridge callHandler:@"testJavascriptHandler" data:@{ @"foo":@"before ready" }];
+
 }
 
 #pragma mark - Getters & Setters
@@ -53,6 +58,13 @@
         [self.view addSubview:_webView];
     }
     return _webView;
+}
+- (IBAction)nativeButtonAction:(id)sender {
+    id data = @{ @"greetingFromObjC": @"Hi there, JS!" };
+    [_bridge callHandler:@"testJavascriptHandler" data:data responseCallback:^(id response) {
+        NSLog(@"testJavascriptHandler responded: %@", response);
+    }];
+
 }
 
 - (HyBridBridge *)hybridBridge {

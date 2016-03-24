@@ -129,6 +129,17 @@
             document.documentElement.appendChild(WVJBIframe);
             setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
         }
+        setupWebViewJavascriptBridge(function(bridge) {
+
+        //JS 注册一个方法  OC 调用
+        bridge.registerHandler('testJavascriptHandler', function(data, responseCallback) {
+                               var responseData = { 'Javascript Says':'Right back atcha!' }
+                               responseCallback("sdfsdfsddfsd")
+                               })
+                        })
+
+
+       
         
         
             </script>

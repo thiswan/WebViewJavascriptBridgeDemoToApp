@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HybirdAppViewController">
             <connections>
+                <outlet property="nativeButton" destination="3Ca-wA-qoZ" id="bzj-d4-r3O"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,20 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ca-wA-qoZ">
+                    <rect key="frame" x="414" y="38" width="72" height="30"/>
+                    <state key="normal" title="native按钮"/>
+                    <connections>
+                        <action selector="nativeButtonAction:" destination="-1" eventType="touchUpInside" id="ktl-tL-ECj"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3Ca-wA-qoZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="38" id="UHK-CZ-crx"/>
+                <constraint firstAttribute="trailing" secondItem="3Ca-wA-qoZ" secondAttribute="trailing" constant="114" id="nB9-s0-lib"/>
+            </constraints>
             <point key="canvasLocation" x="299" y="329"/>
         </view>
     </objects>
