@@ -1,0 +1,13 @@
+PODS:
+  - Toast (3.0)
+  - WebViewJavascriptBridge (5.0.5)
+
+DEPENDENCIES:
+  - Toast (~> 3.0)
+  - WebViewJavascriptBridge (~> 5.0.5)
+
+SPEC CHECKSUMS:
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
+
+COCOAPODS: 0.39.0

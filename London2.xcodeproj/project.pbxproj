@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D10E7B3CB7E94C19300B8AE /* libPods-London2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166EA4F6520896F1CEEBB69C /* libPods-London2.a */; };
+		501F30B21CA29BD9005DBF1A /* HybirdAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501F30B01CA29BD9005DBF1A /* HybirdAppViewController.m */; };
+		501F30B31CA29BD9005DBF1A /* HybirdAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501F30B11CA29BD9005DBF1A /* HybirdAppViewController.xib */; };
+		501F30B81CA2A466005DBF1A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 501F30B71CA2A466005DBF1A /* index.html */; };
+		501F30BB1CA2A5C6005DBF1A /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 501F30BA1CA2A5C6005DBF1A /* UIImage+ColorImage.m */; };
+		50F7952B1CA39ACF00389F5D /* HyBridBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7952A1CA39ACF00389F5D /* HyBridBridge.m */; };
+		50F7952F1CA3BB3500389F5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7952D1CA3BB3500389F5D /* LoginViewController.m */; };
+		50F795301CA3BB3500389F5D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F7952E1CA3BB3500389F5D /* LoginViewController.xib */; };
+		50F795351CA3BFF500389F5D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F795331CA3BFF500389F5D /* DetailViewController.m */; };
+		50F795361CA3BFF500389F5D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F795341CA3BFF500389F5D /* DetailViewController.xib */; };
+		50F7953B1CA3D0E800389F5D /* LDPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F795391CA3D0E800389F5D /* LDPayViewController.m */; };
+		50F7953C1CA3D0E800389F5D /* LDPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F7953A1CA3D0E800389F5D /* LDPayViewController.xib */; };
+		C516689F1BB3BED5006CD55F /* LDNavItems.m in Sources */ = {isa = PBXBuildFile; fileRef = C516689E1BB3BED5006CD55F /* LDNavItems.m */; };
+		C5973B5C1BB39EE200C4E4F8 /* LDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5973B5B1BB39EE200C4E4F8 /* LDTabBarController.m */; };
+		C5973B651BB3A07600C4E4F8 /* LDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5973B631BB3A07600C4E4F8 /* LDFeedViewController.m */; };
+		C5973B661BB3A07600C4E4F8 /* LDFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5973B641BB3A07600C4E4F8 /* LDFeedViewController.xib */; };
+		C5973B6A1BB3A09200C4E4F8 /* LDActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5973B681BB3A09200C4E4F8 /* LDActivityViewController.m */; };
+		C5973B6B1BB3A09200C4E4F8 /* LDActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5973B691BB3A09200C4E4F8 /* LDActivityViewController.xib */; };
+		C5973B6F1BB3A0A800C4E4F8 /* LDForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5973B6D1BB3A0A800C4E4F8 /* LDForumViewController.m */; };
+		C5973B701BB3A0A800C4E4F8 /* LDForumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5973B6E1BB3A0A800C4E4F8 /* LDForumViewController.xib */; };
+		C5973B741BB3A0C300C4E4F8 /* LDPorfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5973B721BB3A0C300C4E4F8 /* LDPorfileViewController.m */; };
+		C5973B751BB3A0C300C4E4F8 /* LDPorfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5973B731BB3A0C300C4E4F8 /* LDPorfileViewController.xib */; };
+		C5973B791BB3A0E100C4E4F8 /* LDPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5973B771BB3A0E100C4E4F8 /* LDPublishViewController.m */; };
+		C5973B7A1BB3A0E100C4E4F8 /* LDPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5973B781BB3A0E100C4E4F8 /* LDPublishViewController.xib */; };
+		C5D2EA711BB39BBA0052A7C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D2EA701BB39BBA0052A7C0 /* main.m */; };
+		C5D2EA741BB39BBA0052A7C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D2EA731BB39BBA0052A7C0 /* AppDelegate.m */; };
+		C5D2EA7C1BB39BBA0052A7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D2EA7B1BB39BBA0052A7C0 /* Assets.xcassets */; };
+		C5D2EA7F1BB39BBA0052A7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D2EA7D1BB39BBA0052A7C0 /* LaunchScreen.storyboard */; };
+		C5D2EA8A1BB39BBB0052A7C0 /* London2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D2EA891BB39BBB0052A7C0 /* London2Tests.m */; };
+		C5D2EA951BB39BBB0052A7C0 /* London2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D2EA941BB39BBB0052A7C0 /* London2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D2EA861BB39BBB0052A7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D2EA641BB39BBA0052A7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D2EA6B1BB39BBA0052A7C0;
+			remoteInfo = London2;
+		};
+		C5D2EA911BB39BBB0052A7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D2EA641BB39BBA0052A7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D2EA6B1BB39BBA0052A7C0;
+			remoteInfo = London2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166EA4F6520896F1CEEBB69C /* libPods-London2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-London2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7889C6F06C89736C5888ED /* Pods-London2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-London2.release.xcconfig"; path = "Pods/Target Support Files/Pods-London2/Pods-London2.release.xcconfig"; sourceTree = "<group>"; };
+		501F30AF1CA29BD9005DBF1A /* HybirdAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybirdAppViewController.h; sourceTree = "<group>"; };
+		501F30B01CA29BD9005DBF1A /* HybirdAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybirdAppViewController.m; sourceTree = "<group>"; };
+		501F30B11CA29BD9005DBF1A /* HybirdAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HybirdAppViewController.xib; sourceTree = "<group>"; };
+		501F30B71CA2A466005DBF1A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		501F30B91CA2A5C6005DBF1A /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		501F30BA1CA2A5C6005DBF1A /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		501F30BC1CA2AE85005DBF1A /* HybirdUrlHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybirdUrlHandler.h; sourceTree = "<group>"; };
+		50F795291CA39ACF00389F5D /* HyBridBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyBridBridge.h; sourceTree = "<group>"; };
+		50F7952A1CA39ACF00389F5D /* HyBridBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyBridBridge.m; sourceTree = "<group>"; };
+		50F7952C1CA3BB3500389F5D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		50F7952D1CA3BB3500389F5D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		50F7952E1CA3BB3500389F5D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		50F795321CA3BFF500389F5D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		50F795331CA3BFF500389F5D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		50F795341CA3BFF500389F5D /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		50F795381CA3D0E800389F5D /* LDPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDPayViewController.h; sourceTree = "<group>"; };
+		50F795391CA3D0E800389F5D /* LDPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDPayViewController.m; sourceTree = "<group>"; };
+		50F7953A1CA3D0E800389F5D /* LDPayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDPayViewController.xib; sourceTree = "<group>"; };
+		C516689D1BB3BED5006CD55F /* LDNavItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNavItems.h; sourceTree = "<group>"; };
+		C516689E1BB3BED5006CD55F /* LDNavItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNavItems.m; sourceTree = "<group>"; };
+		C5973B5A1BB39EE200C4E4F8 /* LDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTabBarController.h; sourceTree = "<group>"; };
+		C5973B5B1BB39EE200C4E4F8 /* LDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTabBarController.m; sourceTree = "<group>"; };
+		C5973B621BB3A07600C4E4F8 /* LDFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDFeedViewController.h; sourceTree = "<group>"; };
+		C5973B631BB3A07600C4E4F8 /* LDFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDFeedViewController.m; sourceTree = "<group>"; };
+		C5973B641BB3A07600C4E4F8 /* LDFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDFeedViewController.xib; sourceTree = "<group>"; };
+		C5973B671BB3A09200C4E4F8 /* LDActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDActivityViewController.h; sourceTree = "<group>"; };
+		C5973B681BB3A09200C4E4F8 /* LDActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDActivityViewController.m; sourceTree = "<group>"; };
+		C5973B691BB3A09200C4E4F8 /* LDActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDActivityViewController.xib; sourceTree = "<group>"; };
+		C5973B6C1BB3A0A800C4E4F8 /* LDForumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDForumViewController.h; sourceTree = "<group>"; };
+		C5973B6D1BB3A0A800C4E4F8 /* LDForumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDForumViewController.m; sourceTree = "<group>"; };
+		C5973B6E1BB3A0A800C4E4F8 /* LDForumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDForumViewController.xib; sourceTree = "<group>"; };
+		C5973B711BB3A0C300C4E4F8 /* LDPorfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDPorfileViewController.h; sourceTree = "<group>"; };
+		C5973B721BB3A0C300C4E4F8 /* LDPorfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDPorfileViewController.m; sourceTree = "<group>"; };
+		C5973B731BB3A0C300C4E4F8 /* LDPorfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDPorfileViewController.xib; sourceTree = "<group>"; };
+		C5973B761BB3A0E100C4E4F8 /* LDPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDPublishViewController.h; sourceTree = "<group>"; };
+		C5973B771BB3A0E100C4E4F8 /* LDPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDPublishViewController.m; sourceTree = "<group>"; };
+		C5973B781BB3A0E100C4E4F8 /* LDPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDPublishViewController.xib; sourceTree = "<group>"; };
+		C5D2EA6C1BB39BBA0052A7C0 /* London2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = London2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D2EA701BB39BBA0052A7C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5D2EA721BB39BBA0052A7C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5D2EA731BB39BBA0052A7C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5D2EA7B1BB39BBA0052A7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D2EA7E1BB39BBA0052A7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5D2EA801BB39BBA0052A7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D2EA851BB39BBB0052A7C0 /* London2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = London2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D2EA891BB39BBB0052A7C0 /* London2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = London2Tests.m; sourceTree = "<group>"; };
+		C5D2EA8B1BB39BBB0052A7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D2EA901BB39BBB0052A7C0 /* London2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = London2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D2EA941BB39BBB0052A7C0 /* London2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = London2UITests.m; sourceTree = "<group>"; };
+		C5D2EA961BB39BBB0052A7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE63710F3B9DF861560758FF /* Pods-London2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-London2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-London2/Pods-London2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D2EA691BB39BBA0052A7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D10E7B3CB7E94C19300B8AE /* libPods-London2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D2EA821BB39BBB0052A7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D2EA8D1BB39BBB0052A7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AC70A4EBB2AF9E8632EB5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE63710F3B9DF861560758FF /* Pods-London2.debug.xcconfig */,
+				3D7889C6F06C89736C5888ED /* Pods-London2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		020081586EECD2B674FC9A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166EA4F6520896F1CEEBB69C /* libPods-London2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		501F30B41CA29BDE005DBF1A /* HybirdAppWebView */ = {
+			isa = PBXGroup;
+			children = (
+				501F30AF1CA29BD9005DBF1A /* HybirdAppViewController.h */,
+				501F30B01CA29BD9005DBF1A /* HybirdAppViewController.m */,
+				501F30B11CA29BD9005DBF1A /* HybirdAppViewController.xib */,
+			);
+			name = HybirdAppWebView;
+			sourceTree = "<group>";
+		};
+		501F30B61CA29CE7005DBF1A /* HybridAppBridge */ = {
+			isa = PBXGroup;
+			children = (
+				501F30BC1CA2AE85005DBF1A /* HybirdUrlHandler.h */,
+				50F795291CA39ACF00389F5D /* HyBridBridge.h */,
+				50F7952A1CA39ACF00389F5D /* HyBridBridge.m */,
+			);
+			name = HybridAppBridge;
+			sourceTree = "<group>";
+		};
+		50F795311CA3BB4500389F5D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				50F7952C1CA3BB3500389F5D /* LoginViewController.h */,
+				50F7952D1CA3BB3500389F5D /* LoginViewController.m */,
+				50F7952E1CA3BB3500389F5D /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		50F795371CA3D07500389F5D /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50F795321CA3BFF500389F5D /* DetailViewController.h */,
+				50F795331CA3BFF500389F5D /* DetailViewController.m */,
+				50F795341CA3BFF500389F5D /* DetailViewController.xib */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		C5973B3A1BB39CE100C4E4F8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C5973B3B1BB39CE500C4E4F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				501F30B91CA2A5C6005DBF1A /* UIImage+ColorImage.h */,
+				501F30BA1CA2A5C6005DBF1A /* UIImage+ColorImage.m */,
+				501F30B61CA29CE7005DBF1A /* HybridAppBridge */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C5973B3C1BB39CEF00C4E4F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B3D1BB39CEF00C4E4F8 /* Activity */,
+				C5973B3E1BB39CEF00C4E4F8 /* Feed */,
+				C5973B3F1BB39CEF00C4E4F8 /* Forum */,
+				C5973B401BB39CEF00C4E4F8 /* Porfile */,
+				C5973B411BB39CEF00C4E4F8 /* Publish */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5973B3D1BB39CEF00C4E4F8 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		C5973B3E1BB39CEF00C4E4F8 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C5973B3F1BB39CEF00C4E4F8 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		C5973B401BB39CEF00C4E4F8 /* Porfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Porfile;
+			sourceTree = "<group>";
+		};
+		C5973B411BB39CEF00C4E4F8 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		C5973B421BB39CF200C4E4F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				501F30B71CA2A466005DBF1A /* index.html */,
+				C5973B431BB39CF200C4E4F8 /* Activity */,
+				C5973B441BB39CF200C4E4F8 /* Feed */,
+				C5973B451BB39CF200C4E4F8 /* Forum */,
+				C5973B461BB39CF200C4E4F8 /* Porfile */,
+				C5973B471BB39CF200C4E4F8 /* Publish */,
+				C516689D1BB3BED5006CD55F /* LDNavItems.h */,
+				C516689E1BB3BED5006CD55F /* LDNavItems.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5973B431BB39CF200C4E4F8 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		C5973B441BB39CF200C4E4F8 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C5973B451BB39CF200C4E4F8 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		C5973B461BB39CF200C4E4F8 /* Porfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Porfile;
+			sourceTree = "<group>";
+		};
+		C5973B471BB39CF200C4E4F8 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		C5973B481BB39CF600C4E4F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B531BB39DE200C4E4F8 /* Tab */,
+				C5973B491BB39CF600C4E4F8 /* Activity */,
+				C5973B4A1BB39CF600C4E4F8 /* Feed */,
+				C5973B4B1BB39CF600C4E4F8 /* Forum */,
+				C5973B4C1BB39CF600C4E4F8 /* Porfile */,
+				C5973B4D1BB39CF600C4E4F8 /* Publish */,
+				501F30B41CA29BDE005DBF1A /* HybirdAppWebView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5973B491BB39CF600C4E4F8 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B4F1BB39D5000C4E4F8 /* ActivityHome */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		C5973B4A1BB39CF600C4E4F8 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B4E1BB39D3A00C4E4F8 /* FeedHome */,
+				50F795371CA3D07500389F5D /* DetailViewController */,
+				50F795381CA3D0E800389F5D /* LDPayViewController.h */,
+				50F795391CA3D0E800389F5D /* LDPayViewController.m */,
+				50F7953A1CA3D0E800389F5D /* LDPayViewController.xib */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C5973B4B1BB39CF600C4E4F8 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B501BB39D6400C4E4F8 /* ForumHome */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		C5973B4C1BB39CF600C4E4F8 /* Porfile */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B511BB39D7900C4E4F8 /* PorfileHome */,
+				50F795311CA3BB4500389F5D /* Login */,
+			);
+			path = Porfile;
+			sourceTree = "<group>";
+		};
+		C5973B4D1BB39CF600C4E4F8 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B521BB39D8F00C4E4F8 /* PublishHome */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		C5973B4E1BB39D3A00C4E4F8 /* FeedHome */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B621BB3A07600C4E4F8 /* LDFeedViewController.h */,
+				C5973B631BB3A07600C4E4F8 /* LDFeedViewController.m */,
+				C5973B641BB3A07600C4E4F8 /* LDFeedViewController.xib */,
+			);
+			path = FeedHome;
+			sourceTree = "<group>";
+		};
+		C5973B4F1BB39D5000C4E4F8 /* ActivityHome */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B671BB3A09200C4E4F8 /* LDActivityViewController.h */,
+				C5973B681BB3A09200C4E4F8 /* LDActivityViewController.m */,
+				C5973B691BB3A09200C4E4F8 /* LDActivityViewController.xib */,
+			);
+			path = ActivityHome;
+			sourceTree = "<group>";
+		};
+		C5973B501BB39D6400C4E4F8 /* ForumHome */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B6C1BB3A0A800C4E4F8 /* LDForumViewController.h */,
+				C5973B6D1BB3A0A800C4E4F8 /* LDForumViewController.m */,
+				C5973B6E1BB3A0A800C4E4F8 /* LDForumViewController.xib */,
+			);
+			path = ForumHome;
+			sourceTree = "<group>";
+		};
+		C5973B511BB39D7900C4E4F8 /* PorfileHome */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B711BB3A0C300C4E4F8 /* LDPorfileViewController.h */,
+				C5973B721BB3A0C300C4E4F8 /* LDPorfileViewController.m */,
+				C5973B731BB3A0C300C4E4F8 /* LDPorfileViewController.xib */,
+			);
+			path = PorfileHome;
+			sourceTree = "<group>";
+		};
+		C5973B521BB39D8F00C4E4F8 /* PublishHome */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B761BB3A0E100C4E4F8 /* LDPublishViewController.h */,
+				C5973B771BB3A0E100C4E4F8 /* LDPublishViewController.m */,
+				C5973B781BB3A0E100C4E4F8 /* LDPublishViewController.xib */,
+			);
+			path = PublishHome;
+			sourceTree = "<group>";
+		};
+		C5973B531BB39DE200C4E4F8 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B5A1BB39EE200C4E4F8 /* LDTabBarController.h */,
+				C5973B5B1BB39EE200C4E4F8 /* LDTabBarController.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		C5D2EA631BB39BBA0052A7C0 = {
+			isa = PBXGroup;
+			children = (
+				C5D2EA6E1BB39BBA0052A7C0 /* London2 */,
+				C5D2EA881BB39BBB0052A7C0 /* London2Tests */,
+				C5D2EA931BB39BBB0052A7C0 /* London2UITests */,
+				C5D2EA6D1BB39BBA0052A7C0 /* Products */,
+				00AC70A4EBB2AF9E8632EB5A /* Pods */,
+				020081586EECD2B674FC9A11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D2EA6D1BB39BBA0052A7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2EA6C1BB39BBA0052A7C0 /* London2.app */,
+				C5D2EA851BB39BBB0052A7C0 /* London2Tests.xctest */,
+				C5D2EA901BB39BBB0052A7C0 /* London2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D2EA6E1BB39BBA0052A7C0 /* London2 */ = {
+			isa = PBXGroup;
+			children = (
+				C5973B481BB39CF600C4E4F8 /* Controllers */,
+				C5973B421BB39CF200C4E4F8 /* Views */,
+				C5973B3C1BB39CEF00C4E4F8 /* Models */,
+				C5973B3B1BB39CE500C4E4F8 /* Utils */,
+				C5973B3A1BB39CE100C4E4F8 /* API */,
+				C5D2EA721BB39BBA0052A7C0 /* AppDelegate.h */,
+				C5D2EA731BB39BBA0052A7C0 /* AppDelegate.m */,
+				C5D2EA7B1BB39BBA0052A7C0 /* Assets.xcassets */,
+				C5D2EA7D1BB39BBA0052A7C0 /* LaunchScreen.storyboard */,
+				C5D2EA801BB39BBA0052A7C0 /* Info.plist */,
+				C5D2EA6F1BB39BBA0052A7C0 /* Supporting Files */,
+			);
+			path = London2;
+			sourceTree = "<group>";
+		};
+		C5D2EA6F1BB39BBA0052A7C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2EA701BB39BBA0052A7C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D2EA881BB39BBB0052A7C0 /* London2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2EA891BB39BBB0052A7C0 /* London2Tests.m */,
+				C5D2EA8B1BB39BBB0052A7C0 /* Info.plist */,
+			);
+			path = London2Tests;
+			sourceTree = "<group>";
+		};
+		C5D2EA931BB39BBB0052A7C0 /* London2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5D2EA941BB39BBB0052A7C0 /* London2UITests.m */,
+				C5D2EA961BB39BBB0052A7C0 /* Info.plist */,
+			);
+			path = London2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D2EA6B1BB39BBA0052A7C0 /* London2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D2EA991BB39BBB0052A7C0 /* Build configuration list for PBXNativeTarget "London2" */;
+			buildPhases = (
+				5C765E21BDB6AA22FEF20071 /* Check Pods Manifest.lock */,
+				C5D2EA681BB39BBA0052A7C0 /* Sources */,
+				C5D2EA691BB39BBA0052A7C0 /* Frameworks */,
+				C5D2EA6A1BB39BBA0052A7C0 /* Resources */,
+				70E44F52109E3D181852CD52 /* Embed Pods Frameworks */,
+				310E21BFC8D49FB1DB7018CB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = London2;
+			productName = London2;
+			productReference = C5D2EA6C1BB39BBA0052A7C0 /* London2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D2EA841BB39BBB0052A7C0 /* London2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D2EA9C1BB39BBB0052A7C0 /* Build configuration list for PBXNativeTarget "London2Tests" */;
+			buildPhases = (
+				C5D2EA811BB39BBB0052A7C0 /* Sources */,
+				C5D2EA821BB39BBB0052A7C0 /* Frameworks */,
+				C5D2EA831BB39BBB0052A7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D2EA871BB39BBB0052A7C0 /* PBXTargetDependency */,
+			);
+			name = London2Tests;
+			productName = London2Tests;
+			productReference = C5D2EA851BB39BBB0052A7C0 /* London2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5D2EA8F1BB39BBB0052A7C0 /* London2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D2EA9F1BB39BBB0052A7C0 /* Build configuration list for PBXNativeTarget "London2UITests" */;
+			buildPhases = (
+				C5D2EA8C1BB39BBB0052A7C0 /* Sources */,
+				C5D2EA8D1BB39BBB0052A7C0 /* Frameworks */,
+				C5D2EA8E1BB39BBB0052A7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D2EA921BB39BBB0052A7C0 /* PBXTargetDependency */,
+			);
+			name = London2UITests;
+			productName = London2UITests;
+			productReference = C5D2EA901BB39BBB0052A7C0 /* London2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D2EA641BB39BBA0052A7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yaoquafeng;
+				TargetAttributes = {
+					C5D2EA6B1BB39BBA0052A7C0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C5D2EA841BB39BBB0052A7C0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C5D2EA6B1BB39BBA0052A7C0;
+					};
+					C5D2EA8F1BB39BBB0052A7C0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C5D2EA6B1BB39BBA0052A7C0;
+					};
+				};
+			};
+			buildConfigurationList = C5D2EA671BB39BBA0052A7C0 /* Build configuration list for PBXProject "London2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D2EA631BB39BBA0052A7C0;
+			productRefGroup = C5D2EA6D1BB39BBA0052A7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D2EA6B1BB39BBA0052A7C0 /* London2 */,
+				C5D2EA841BB39BBB0052A7C0 /* London2Tests */,
+				C5D2EA8F1BB39BBB0052A7C0 /* London2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D2EA6A1BB39BBA0052A7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F795301CA3BB3500389F5D /* LoginViewController.xib in Resources */,
+				50F7953C1CA3D0E800389F5D /* LDPayViewController.xib in Resources */,
+				C5973B751BB3A0C300C4E4F8 /* LDPorfileViewController.xib in Resources */,
+				C5973B701BB3A0A800C4E4F8 /* LDForumViewController.xib in Resources */,
+				C5973B661BB3A07600C4E4F8 /* LDFeedViewController.xib in Resources */,
+				50F795361CA3BFF500389F5D /* DetailViewController.xib in Resources */,
+				501F30B81CA2A466005DBF1A /* index.html in Resources */,
+				C5973B7A1BB3A0E100C4E4F8 /* LDPublishViewController.xib in Resources */,
+				C5973B6B1BB3A09200C4E4F8 /* LDActivityViewController.xib in Resources */,
+				C5D2EA7F1BB39BBA0052A7C0 /* LaunchScreen.storyboard in Resources */,
+				501F30B31CA29BD9005DBF1A /* HybirdAppViewController.xib in Resources */,
+				C5D2EA7C1BB39BBA0052A7C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D2EA831BB39BBB0052A7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D2EA8E1BB39BBB0052A7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		310E21BFC8D49FB1DB7018CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-London2/Pods-London2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C765E21BDB6AA22FEF20071 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70E44F52109E3D181852CD52 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-London2/Pods-London2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D2EA681BB39BBA0052A7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501F30B21CA29BD9005DBF1A /* HybirdAppViewController.m in Sources */,
+				C5973B6F1BB3A0A800C4E4F8 /* LDForumViewController.m in Sources */,
+				50F7952F1CA3BB3500389F5D /* LoginViewController.m in Sources */,
+				50F7952B1CA39ACF00389F5D /* HyBridBridge.m in Sources */,
+				501F30BB1CA2A5C6005DBF1A /* UIImage+ColorImage.m in Sources */,
+				C516689F1BB3BED5006CD55F /* LDNavItems.m in Sources */,
+				C5973B651BB3A07600C4E4F8 /* LDFeedViewController.m in Sources */,
+				C5973B791BB3A0E100C4E4F8 /* LDPublishViewController.m in Sources */,
+				C5973B6A1BB3A09200C4E4F8 /* LDActivityViewController.m in Sources */,
+				50F7953B1CA3D0E800389F5D /* LDPayViewController.m in Sources */,
+				C5973B5C1BB39EE200C4E4F8 /* LDTabBarController.m in Sources */,
+				C5973B741BB3A0C300C4E4F8 /* LDPorfileViewController.m in Sources */,
+				C5D2EA741BB39BBA0052A7C0 /* AppDelegate.m in Sources */,
+				C5D2EA711BB39BBA0052A7C0 /* main.m in Sources */,
+				50F795351CA3BFF500389F5D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D2EA811BB39BBB0052A7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D2EA8A1BB39BBB0052A7C0 /* London2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D2EA8C1BB39BBB0052A7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D2EA951BB39BBB0052A7C0 /* London2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D2EA871BB39BBB0052A7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D2EA6B1BB39BBA0052A7C0 /* London2 */;
+			targetProxy = C5D2EA861BB39BBB0052A7C0 /* PBXContainerItemProxy */;
+		};
+		C5D2EA921BB39BBB0052A7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D2EA6B1BB39BBA0052A7C0 /* London2 */;
+			targetProxy = C5D2EA911BB39BBB0052A7C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5D2EA7D1BB39BBA0052A7C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D2EA7E1BB39BBA0052A7C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5D2EA971BB39BBB0052A7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D2EA981BB39BBB0052A7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D2EA9A1BB39BBB0052A7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE63710F3B9DF861560758FF /* Pods-London2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = London2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goumin.cn.London2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5D2EA9B1BB39BBB0052A7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7889C6F06C89736C5888ED /* Pods-London2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = London2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goumin.cn.London2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5D2EA9D1BB39BBB0052A7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = London2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goumin.cn.London2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/London2.app/London2";
+			};
+			name = Debug;
+		};
+		C5D2EA9E1BB39BBB0052A7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = London2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goumin.cn.London2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/London2.app/London2";
+			};
+			name = Release;
+		};
+		C5D2EAA01BB39BBB0052A7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = London2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goumin.cn.London2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = London2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5D2EAA11BB39BBB0052A7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = London2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goumin.cn.London2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = London2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D2EA671BB39BBA0052A7C0 /* Build configuration list for PBXProject "London2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D2EA971BB39BBB0052A7C0 /* Debug */,
+				C5D2EA981BB39BBB0052A7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D2EA991BB39BBB0052A7C0 /* Build configuration list for PBXNativeTarget "London2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D2EA9A1BB39BBB0052A7C0 /* Debug */,
+				C5D2EA9B1BB39BBB0052A7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D2EA9C1BB39BBB0052A7C0 /* Build configuration list for PBXNativeTarget "London2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D2EA9D1BB39BBB0052A7C0 /* Debug */,
+				C5D2EA9E1BB39BBB0052A7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D2EA9F1BB39BBB0052A7C0 /* Build configuration list for PBXNativeTarget "London2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D2EAA01BB39BBB0052A7C0 /* Debug */,
+				C5D2EAA11BB39BBB0052A7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D2EA641BB39BBA0052A7C0 /* Project object */;
+}
